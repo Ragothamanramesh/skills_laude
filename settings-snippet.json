@@ -1,0 +1,20 @@
+{
+  "extraKnownMarketplaces": {
+    "curated-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Ragothamanramesh/skills_laude"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "andrej-karpathy-skills@curated-skills": true,
+    "planning-with-files@curated-skills": true,
+    "hallmark@curated-skills": true,
+    "frontend-slides@curated-skills": true,
+    "last30days@curated-skills": true,
+    "humanizer@curated-skills": true,
+    "marketing-skills@curated-skills": true,
+    "skill-inspector@curated-skills": true
+  }
+}

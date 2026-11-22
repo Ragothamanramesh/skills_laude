@@ -1,0 +1,8 @@
+{
+  "name": "skill-inspector",
+  "version": "1.0.0",
+  "description": "NVIDIA SkillSpector's skill-inspector skill: scan any agent skill for prompt injection, exfiltration and other risks before installing it. Needs the skillspector CLI.",
+  "repository": "https://github.com/NVIDIA/SkillSpector",
+  "author": {"name": "NVIDIA"},
+  "license": "Apache-2.0"
+}

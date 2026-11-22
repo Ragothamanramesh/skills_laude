@@ -1,0 +1,79 @@
+{
+  "name": "curated-skills",
+  "description": "Eight vetted skills from the GitHub Claude Top 100, each pinned to the commit that was security-reviewed.",
+  "owner": {
+    "name": "curated-skills"
+  },
+  "plugins": [
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "Coding guidelines that cut common LLM coding mistakes.",
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills",
+        "sha": "2c606141936f1eeef17fa3043a72095b4765b9c2"
+      }
+    },
+    {
+      "name": "planning-with-files",
+      "description": "Persistent markdown plans that survive /clear and context compaction. Runs local lifecycle hooks; set PLANNING_DISABLED=1 to pause them.",
+      "source": {
+        "source": "github",
+        "repo": "OthmanAdi/planning-with-files",
+        "sha": "0d840dc9a48892a72d762a4295f7a59e56a112bd"
+      }
+    },
+    {
+      "name": "hallmark",
+      "description": "Anti-AI-slop design skill for UI work.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Nutlope/hallmark.git",
+        "path": "skills",
+        "sha": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92"
+      },
+      "strict": false,
+      "skills": [
+        "./hallmark"
+      ]
+    },
+    {
+      "name": "frontend-slides",
+      "description": "Build polished HTML slide decks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zarazhangrui/frontend-slides.git",
+        "path": "plugins/frontend-slides",
+        "sha": "9906a34d640d2111f724544cbc50f7f130569ae1"
+      }
+    },
+    {
+      "name": "last30days",
+      "description": "Research a topic across Reddit, X, YouTube, HN and the web from the last 30 days.",
+      "source": {
+        "source": "github",
+        "repo": "mvanhorn/last30days-skill",
+        "sha": "e63f8e8732f1b934449b363f211b3654531b8ef2"
+      }
+    },
+    {
+      "name": "humanizer",
+      "description": "Remove signs of AI-generated writing from text.",
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer",
+        "sha": "a32f24407364c74c812b43c15926d638bee1e072"
+      }
+    },
+    {
+      "name": "marketing-skills",
+      "description": "16 marketing skills: copywriting, CRO, SEO, email, ads, A/B testing, content.",
+      "source": "./plugins/marketing-skills"
+    },
+    {
+      "name": "skill-inspector",
+      "description": "Scan agent skills for security risks before installing (NVIDIA SkillSpector).",
+      "source": "./plugins/skill-inspector"
+    }
+  ]
+}

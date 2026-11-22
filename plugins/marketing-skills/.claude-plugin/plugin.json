@@ -1,0 +1,8 @@
+{
+  "name": "marketing-skills",
+  "version": "2.14.25-trim.1",
+  "description": "16 of Corey Haines' marketing skills: copywriting, CRO, SEO, email, ads, A/B testing, content. Trimmed from 53 to skip overlap with founderos. Vendored from coreyhaines31/marketingskills@5b2b400.",
+  "author": {"name": "Corey Haines"},
+  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "license": "MIT"
+}
